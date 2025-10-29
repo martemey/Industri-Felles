@@ -3,31 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>BØ Industribedrift - Hjem</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="INDUSTRI.css">
 </head>
-
-<body>
-  <header>
-    <div class="header">Bø Industribedrift</div>
-  </header>
-
-  <div class="container">  
-      <div class="product-box">
-        <div class="product-title">Kontorrekvisita</div>
-        <div class="product-desc">Her kommer kontorrekvisita.</div>
-        <img src="Bilder/EksempelBilde.png" alt="Bilde" width="200" height="200">
+<body> 
+    <div class="container">  
+    <div class="brand">
+      <div class="logo">BI</div>
+      <div>
+        <div style="font-weight:800">Bø Industribedrift</div>
+        <div style="font-size:13px;color:var(--muted)">Kontor | Montering | Utleie</div>
       </div>
-      <div class="product-box">
-        <div class="product-title">Montering</div>
-        <div class="product-desc">Her kommer montering</div>
-        <img src="Bilder/EksempelBilde.png" alt="Bilde" width="200" height="200">
+    </div>
+
+    <nav class="nav-links">
+        <a href="#Tjenester">Tjenester</a>
+        <a href="#Produkter">Produkter</a>
+        <a href="#Kontakt">Kontakt</a>
+    </nav>
+</div>
+
+<section class="hero" aria-label="Introduksjon">
+    <div class="hero-left">
+        <h1>Alt du trenger til kontor og vedlikehold</h1>
+        <p class="lead">Bø Industribedrift tilbyr kontorrekvisita, profesjonell montering og utleie av vedlikeholdsutstyr — raskt, sikkert og lokalt.</p>
+        <div class="cta">
+            <a class="btn" href="#produkter">Se produkter</a>
+            <a class="btn alt" href="#kontakt">Kontakt oss</a>
+        </div>
+    </div>
+    <div class="hero-right">
+        <div class="hero-image">
+            <img src="https://storage.googleapis.com/lb-images-eu/no/2831745/6002974-sankt-hallvards-vei-3.jpg?v=m1676274880" alt="Kontor og utstyr">
+        </div>
+    </div>
+</section>
+
+<section id="tjenester" class="services">
+    <div class="card">
+        <div class="card-icon">📦</div>
+    <div>
+        <h3>Kontorrekvisita</h3>
+        <p>Bredt utvalg av papir, penner, arkivering og kontormøbler fra pålitelige leverandører.</p>
       </div>
-      <div class="product-box">
-        <div class="product-title">Utleie</div>
-        <div class="product-desc">Her kommer utleie.</div>
-        <img src="Bilder/EksempelBilde.png" alt="Bilde" width="200" height="200">
-  </div>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">🔧</div>
+    <div>
+        <h3>Montering & Installasjon</h3>
+        <p>Erfarne teknikere som monterer alt fra hyllesystemer til komplette kontorløsninger.</p>
+      </div>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">🚜</div>
+    <div>
+        <h3>Utleie av vedlikeholdsutstyr</h3>
+        <p>Maskiner og verktøy for vedlikehold — korttids- og langtidsleie med fleksible betingelser.</p>
+      </div>
+    </div>
+</section>
+
+
+
+
+
 
 </body>
-
 </html>
