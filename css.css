@@ -1,5 +1,5 @@
 .header {
-  background-color: #333;
+  background-color: #6d8b81;
   color: white;
   padding: 20px;
   text-align: center;
@@ -8,7 +8,7 @@
 
 .container {
     display: flex;
-    background-color: #bcb9b9;
+    background-color: #ffffff;
     gap: 10px;
     margin: 0px;
     padding: 30px;   
