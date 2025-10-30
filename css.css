@@ -3,30 +3,35 @@
     --muted: #6c757d;
     --radius: 12px;
     --gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: rgb(239, 243, 245);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container {
     display: flex;
-    background-color: rgb(255, 255, 255);
-    gap: 10px;
-    margin: 0px;
-    padding: 30px;   
     flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    gap: 10%;
+    margin: 0px;
+    padding: 5%;   
     justify-content: space-between;
 }
 
 .brand {
-    display:flex;
-    gap:15px;
-    align-items:center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
     font-size: 25px;
 }
 
 .logo {
     width: 60px;
     height: 60px;
-    border-radius:10px;
-    display:inline-grid;
+    border-radius: 10px;
+    display: inline-grid;
     place-items:center;
     background-color: #dbecf6;
     color:rgb(64, 58, 58);
@@ -56,7 +61,7 @@ header {
     align-items:center;
     justify-content:space-between;
     gap:16px;
-    padding:14px 0;
+    padding: 5px 0;
 }
 
 /* Hero */
@@ -64,8 +69,8 @@ header {
     display:flex;
     gap:30px;
     align-items:center;
-    margin-top:18px;
-    padding:28px;
+    margin-top: auto;
+    padding: 50px;
     border-radius:var(--radius);
 }
 .hero-left {flex:1}
@@ -97,13 +102,13 @@ h1 {
 
 /* Services */
 .services {
-    display:flex;
-    margin-top:22px;
-     gap:var(--gap);
-}
+    display: flex;
+    margin-top: 22px;
+    gap: var(--gap);
+}   
 .card {
-    background: var(--card);
-    padding: 18px;
+    background: rgba(255, 255, 255, 0.333);
+    padding: 12px;
     border-radius: 12px;
     flex: 1;
     box-shadow: 0 6px 18px rgba(15, 23, 36, 0.04);
@@ -131,3 +136,4 @@ h1 {
     color: var(--muted);
     font-size: 14px;
 }
+
